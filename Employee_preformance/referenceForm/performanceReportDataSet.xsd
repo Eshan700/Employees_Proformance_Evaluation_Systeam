@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="performanceReportDataSet" targetNamespace="http://tempuri.org/performanceReportDataSet.xsd" xmlns:mstns="http://tempuri.org/performanceReportDataSet.xsd" xmlns="http://tempuri.org/performanceReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="performanceReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="performanceReportDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="performanceReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="employee_id" msprop:Generator_UserColumnName="employee_id" msprop:Generator_ColumnPropNameInTable="employee_idColumn" msprop:Generator_ColumnPropNameInRow="employee_id" msprop:Generator_ColumnVarNameInTable="columnemployee_id" type="xs:string" minOccurs="0" />
+              <xs:element name="Emp_no" msprop:Generator_UserColumnName="Emp_no" msprop:Generator_ColumnPropNameInTable="Emp_noColumn" msprop:Generator_ColumnPropNameInRow="Emp_no" msprop:Generator_ColumnVarNameInTable="columnEmp_no" type="xs:string" minOccurs="0" />
+              <xs:element name="full_name" msprop:Generator_UserColumnName="full_name" msprop:Generator_ColumnPropNameInTable="full_nameColumn" msprop:Generator_ColumnPropNameInRow="full_name" msprop:Generator_ColumnVarNameInTable="columnfull_name" type="xs:string" minOccurs="0" />
+              <xs:element name="average_performance" msprop:Generator_UserColumnName="average_performance" msprop:Generator_ColumnPropNameInTable="average_performanceColumn" msprop:Generator_ColumnPropNameInRow="average_performance" msprop:Generator_ColumnVarNameInTable="columnaverage_performance" type="xs:string" minOccurs="0" />
+              <xs:element name="month" msprop:Generator_UserColumnName="month" msprop:Generator_ColumnPropNameInTable="monthColumn" msprop:Generator_ColumnPropNameInRow="month" msprop:Generator_ColumnVarNameInTable="columnmonth" type="xs:string" minOccurs="0" />
+              <xs:element name="year" msprop:Generator_ColumnPropNameInRow="year" msprop:Generator_ColumnPropNameInTable="yearColumn" msprop:Generator_ColumnVarNameInTable="columnyear" msprop:Generator_UserColumnName="year" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
